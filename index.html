@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- <meta charset="utf-8"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+    </style>
+    <title>Portfolio</title>
+    <script type="text/javascript" src="scripts/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+</head>
+
+
+<body>
+
+
+  <div class="name">
+    <div>
+      <h1>Cliff Conolly</h1>
+    </div>
+    <div>
+      <h5>Junior Software Engineer</h5>
+    </div>
+  </div>
+
+  <div class="box">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+<div class="div1">
+  <div class="div2"></div>
+
+</div>
+
+
+<script>
+ var arrowbox = document.querySelector(".box")
+ arrowbox.addEventListener("click", function() {
+ window.scrollTo({
+  top: 400,
+  left: 0,
+  behavior: 'smooth'
+});
+ })
+
+</script>
+
+
+<div>
+  <script>
+  	// init controller
+  	var controller = new ScrollMagic.Controller();
+  </script>
+
+
+  <div class="pad"></div>
+  <div id="trigger1" class="spacer s0"></div>
+  <div id="reveal1" class="box2 blue">
+    <div class="scrawl">
+      <div class="container1">
+       <div id="profile">
+         <div><i class="fa fa-linkedin" ></i></div>
+       </div>
+       <div id="profile_blurb">
+        <p>The intersection where code and design meet is where you'll find me.</p>
+        <p>Please click the icons below for my professional credentials.</p>
+        <p>To really get to know me, let's meet in person ....you'll see that I'm very down to earth.</p>
+       </div>
+      </div>
+      <div class="container2"></div>
+      <div class="container3"></div>
+    </div>
+    <!-- <div class="scrawl2">
+        <p>The intersection where code and design meet is where you'll find me.</p>
+        <p>Please click the icons below for my professional credentials.</p>
+        <p> To really get to know me, let's meet in person ....you'll see that I'm very down to earth.</p>
+      </div> -->
+  </div>
+
+  <!-- <img src="assets/profile_photo.jpg" alt=""> -->
+
+  <script>
+  		// build scene
+  		new ScrollMagic.Scene({
+  							triggerElement: "#trigger1",
+  							triggerHook: 0.9, // show, when scrolled 10% into view
+  							duration: "75%", // hide 10% before exiting view (80% + 10% from bottom)
+  							offset: 50 // move trigger to center of element
+  						})
+  						.setClassToggle("#reveal1", "visible") // add class to reveal
+  						// .addIndicators() // add indicators (requires plugin)
+  						.addTo(controller);
+  </script>
+
+</div>
+  <footer>
+    <ul>
+      <li>
+        <a href="https://www.linkedin.com/in/cliff-conolly/"><i class="fa fa-linkedin" ></i></a>
+      </li>
+      <li>
+        <a href="https://github.com/Cliff-Conolly"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+      </li>
+      <li>
+        <a href="https://twitter.com/@CliffConolly"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </li>
+      <li>
+        <a href="https://profiles.generalassemb.ly/cliff-conolly"><img class="ga" src="assets/black_ga.png"></a>
+      </li>
+    <ul>
+  </footer>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
