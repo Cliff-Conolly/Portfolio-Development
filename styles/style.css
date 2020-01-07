@@ -118,7 +118,7 @@ body {
     
     .scrawl {
       transform-style: preserve-3d;
-      transform: rotateX(4deg);
+      transform: rotateX(2.75deg);
       width: 800px;
       border: 0.50px solid #ced8e7;
       border-radius: 20px 20px 20px 20px;
@@ -155,6 +155,7 @@ body {
       border: 1px solid green;
       width: 30pc;
       margin: 10px;
+      border-radius: 20px;
     
     }
 
