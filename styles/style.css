@@ -190,6 +190,8 @@ body {
       height: 74px;
       border: o.25px solid red;
       display: flex;
+      justify-content: space-evenly;
+      margin: 3px;
     }
 
     /* .logo_boxes {
@@ -202,7 +204,7 @@ body {
 
     #logo-box {
       border: 0.25px solid red;
-      width: 50px;
+      width: 60px;
       height: 70px;
       
     }
