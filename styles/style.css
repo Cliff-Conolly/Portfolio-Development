@@ -182,7 +182,7 @@ body {
       width: 800px;
       height: 150px;
       border: 0.25px solid #ced8e7;
-     
+      /* display: flex; */
     }
 
     .logo1 {
@@ -193,6 +193,8 @@ body {
       justify-content: space-evenly;
       margin: 3px;
     }
+
+    
 
     /* .logo_boxes {
       display: flex;
