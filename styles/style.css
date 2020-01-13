@@ -182,7 +182,14 @@ body {
       width: 800px;
       height: 150px;
       border: 0.25px solid #ced8e7;
-      display: inline-flex;
+     
+    }
+
+    .logo1 {
+      width : 796px;
+      height: 74px;
+      border: o.25px solid red;
+      display: flex;
     }
 
     /* .logo_boxes {
@@ -195,7 +202,7 @@ body {
 
     #logo-box {
       border: 0.25px solid red;
-      width: 150px;
+      width: 50px;
       height: 70px;
       
     }
