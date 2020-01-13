@@ -182,7 +182,7 @@ body {
       width: 800px;
       height: 150px;
       border: 0.25px solid #ced8e7;
-      
+      display: inline-flex;
     }
 
     /* .logo_boxes {
@@ -193,9 +193,12 @@ body {
       display: inline-block;
     } */
 
-    /* #logo-box {
+    #logo-box {
       border: 0.25px solid red;
-    } */
+      width: 150px;
+      height: 70px;
+      
+    }
 
 
     
