@@ -175,7 +175,6 @@ body {
       text-transform: uppercase;
       /* padding: 10px; */
     
-    
     }
     
     
@@ -186,13 +185,17 @@ body {
       
     }
 
-    .logo_boxes {
+    /* .logo_boxes {
       display: flex;
-    }
+      width: 700px;
+      height: 100px;
+      border: 0.25px solid red;
+      display: inline-block;
+    } */
 
-    #logo-box {
-      border
-    }
+    /* #logo-box {
+      border: 0.25px solid red;
+    } */
 
 
     
