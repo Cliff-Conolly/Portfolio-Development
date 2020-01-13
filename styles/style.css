@@ -183,10 +183,12 @@ body {
       width: 800px;
       height: 150px;
       border: 0.25px solid #ced8e7;
-      display: flex;
+      
     }
 
-    .
+    .logo_boxes {
+      display: flex;
+    }
 
 
     
