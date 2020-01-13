@@ -191,8 +191,18 @@ body {
       border: o.25px solid red;
       display: flex;
       justify-content: space-evenly;
-      margin: 3px;
+      margin: 2px;
     }
+
+    .logo2{
+      width : 796px;
+      height: 74px;
+      border: o.25px solid red;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 2px;
+    }
+
 
     
 
