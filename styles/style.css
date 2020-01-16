@@ -233,9 +233,14 @@ body {
       border: 0.25px solid;
       border-radius: 0px 0px 20px 20px;
       display: flex;
+      
     }
 
     .about_me {
+      border: 0.25px solid red;
+    }
+
+    .projects {
       border: 0.25px solid red;
     }
 
