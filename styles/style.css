@@ -246,6 +246,7 @@ body {
     .about_me {
       border: 0.25px solid red;
       width: 40%;
+      text-align: center;
     }
 
     
