@@ -236,13 +236,17 @@ body {
       
     }
 
-    .about_me {
-      border: 0.25px solid red;
-    }
-
     .projects {
       border: 0.25px solid red;
+      width: 60%;
     }
+
+    .about_me {
+      border: 0.25px solid red;
+
+    }
+
+    
 
 
     
