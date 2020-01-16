@@ -235,7 +235,11 @@ body {
       display: flex;
     }
 
-    
+    .about_me {
+      border: 0.25px solid red;
+    }
+
+
     
     
     
