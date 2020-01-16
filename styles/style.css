@@ -239,6 +239,7 @@ body {
     .projects {
       border: 0.25px solid red;
       width: 60%;
+      text-align: center;
       
     }
 
