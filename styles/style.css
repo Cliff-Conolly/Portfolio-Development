@@ -237,7 +237,8 @@ body {
     }
 
     .projects {
-      border: 0.25px solid red;
+      /* border: 0.25px solid red; */
+      border-right: 0.25px solid #ced8e7;
       width: 60%;
       text-align: center;
       
