@@ -246,6 +246,7 @@ body {
     .pr1 {
       height: 44%;
       border: 0.25px solid red;
+      display: flex;
     }
 
     .pr2 {
