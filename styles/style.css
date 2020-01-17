@@ -288,7 +288,12 @@ body {
 
     .ab_1 {
       border: 0.25px solid black;
-      height: 50%;
+      height: 40%;
+    }
+
+    .ab_2 {
+      border: 0.25px solid black;
+      height: 40%;
     }
 
     
