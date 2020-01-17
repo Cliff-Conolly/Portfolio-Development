@@ -263,7 +263,7 @@ body {
 
     .pr2 {
       height: 44%;
-      border: 0.25px solid red;
+      /* border: 0.25px solid red; */
       display: flex;
     }
 
