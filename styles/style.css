@@ -264,6 +264,19 @@ body {
     .pr2 {
       height: 44%;
       border: 0.25px solid red;
+      display: flex;
+    }
+
+    .pr2_1{
+      border: 0.25px solid black;
+      width: 50%;
+      margin: 12px 4px 4px 4px;
+    }
+
+    .pr2_2{
+      border: 0.25px solid black;
+      width: 50%;
+      margin: 12px 4px 4px 4px;
     }
 
     .about_me {
