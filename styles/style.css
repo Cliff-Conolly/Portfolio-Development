@@ -251,10 +251,12 @@ body {
 
     .pr1_1{
       border: 0.25px solid black;
+      width: 50%;
     }
 
     .pr1_2{
       border: 0.25px solid black;
+      width: 50%;
     }
 
     .pr2 {
