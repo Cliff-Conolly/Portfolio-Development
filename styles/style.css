@@ -286,8 +286,9 @@ body {
       text-align: center;
     }
 
-    .ab_1{
-      
+    .ab_1 {
+      border: 0.25px solid black;
+      height: 50%;
     }
 
     
