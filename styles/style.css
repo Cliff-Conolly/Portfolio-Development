@@ -249,6 +249,14 @@ body {
       display: flex;
     }
 
+    .pr1_1{
+      border: 0.25px solid black;
+    }
+
+    .pr1_2{
+      border: 0.25px solid black;
+    }
+
     .pr2 {
       height: 44%;
       border: 0.25px solid red;
