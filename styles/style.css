@@ -285,7 +285,7 @@ body {
     }
 
     .pr2_2{
-      border: 0.25px solid black;
+      /* border: 0.25px solid black; */
       width: 50%;
       margin: 12px 4px 4px 4px;
     }
